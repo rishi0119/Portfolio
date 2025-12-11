@@ -1,0 +1,106 @@
+<!-- File: index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Kunuguntla Rishika — Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav container">
+      <div class="brand">Kunuguntla Rishika</div>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero container">
+      <div class="hero-text">
+        <h1>Hi, I'm <span class="accent">Kunuguntla Rishika</span>.</h1>
+        <p>I’m an engineering student focused on Full-Stack development, and AI technologies. I enjoy turning ideas into simple, useful products.</p>
+        <p class="cta-row">
+          <a class="btn" href="#projects">See my work</a>
+          <a class="btn ghost" href="#contact">Contact</a>
+        </p>
+      </div>
+
+    </section>
+
+    <section id="about" class="about container card">
+      <h2>About</h2>
+      <p> I am a dedicated Student in AIML with comprehensive full stack development capabilities. Eager to leverage technology skills and problem-solving expertise in a collaborative environment. Ready to embrace growth and adaptability.</p>
+      <ul class="skills">
+        <li>HTML &amp; CSS</li>
+        <li>JavaScript</li>
+        <li>ML Algorithms</li>
+        <li>React</li>
+      </ul>
+    </section>
+
+    <section id="projects" class="projects container">
+      <h2>Projects</h2>
+      <div class="grid">
+        <article class="project card">
+          <div class="proj-meta">Project One</div>
+          <h3>Employee Promotion Classification</h3>
+          <p>It is a machine learning project aimed at predicting which employees are likely to be promoted, using organizational data. Decision Trees were leveraged to analyze key features and build accurate predictive models for promotion outcomes.</p>
+          <p class="proj-links"><a href="#">Live</a> · <a href="#">Source</a></p>
+        </article>
+
+        <article class="project card">
+          <div class="proj-meta">Project Two</div>
+          <h3>Loan Status Apllication</h3>
+          <p>This project where you have or give your credit score ansd your salary and also your details and amount of how much amount needed Then you will get the output weather the loan is approved or not. This will help mmost of the bank officials or the people who give out loans with taking intrests to know weather to give the loan or not.</p>
+          <p class="proj-links"><a href="#">Live</a> · <a href="#">Source</a></p>
+        </article>
+
+        <article class="project card">
+          <div class="proj-meta">Project Three</div>
+          <h3>Todo App</h3>
+          <p>A lightweight todo app demonstrating local storage and progressive enhancement.</p>
+          <p class="proj-links"><a href="#">Live</a> · <a href="#">Source</a></p>
+        </article>
+      </div>
+    </section>
+
+    <section id="contact" class="contact container card">
+      <h2>Contact</h2>
+      <p>Interested in working together? Send me a message.</p>
+      <form class="contact-form" action="#" method="post">
+        <label>
+          <span>Name</span>
+          <input type="text" name="name" required>
+        </label>
+        <label>
+          <span>Email</span>
+          <input type="email" name="email" required>
+        </label>
+        <label>
+          <span>Message</span>
+          <textarea name="message" rows="5" required></textarea>
+        </label>
+        <button class="btn" type="submit">Send message</button>
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year"></span> Kunuguntla Rishika</p>
+      <p class="footer-links"><a href="https://github.com/rishi0119">GitHub</a> · <a href="https://www.linkedin.com/in/kunuguntla-rishika-3a55a6322/">LinkedIn</a></p>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
