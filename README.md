@@ -1,6 +1,6 @@
 # Portfolio
 
-Hi, I’m Kunuguntla Rishika, a 3rd-year CSE-AIML student with a strong interest in AI technologies, full-stack development, and anything that challenges me to learn something new.
+Hi, I’m Kunuguntla Rishika, a 4th-year CSE-AIML student with a strong interest in AI technologies, full-stack development, and anything that challenges me to learn something new.
 
 I enjoy building projects that mix creativity with real-world problem-solving—whether it’s experimenting with machine learning models, working on web apps, or exploring how AI can make everyday tasks easier.
 
